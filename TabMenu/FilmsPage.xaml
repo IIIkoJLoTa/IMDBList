@@ -1,0 +1,17 @@
+﻿<Page x:Class="TabMenu.FilmsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TabMenu"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="FilmsPage">
+
+    <Grid Background="#FF22C0D9">
+        <Image Name="Image1" HorizontalAlignment="Left" Height="465" VerticalAlignment="Top" Width="354" Margin="0,0,0,-15" MouseDown="Image1_MouseDown"
+            />
+        <TextBox Name="TextBox1" HorizontalAlignment="Left" Height="270" Margin="354,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="260" SelectionBrush="#FF22C0D9" CaretBrush="#FF22C0D9" Foreground="#FFF1F1F1" FontFamily="Times New Roman" FontSize="20"/>
+        <Button Name="NextButton" Content="Next movie" HorizontalAlignment="Left" Margin="359,304,0,0" VerticalAlignment="Top" Width="255" Click="NextButton_Click" RenderTransformOrigin="3.467,-0.875" FontFamily="Times New Roman" FontSize="20" FontWeight="Normal"/>
+    </Grid>
+</Page>
